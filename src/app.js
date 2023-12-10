@@ -60,19 +60,19 @@ const callback = (entries, observer) => {
                 position = 'skills'
 
                 setTimeout(() => Array.from(skill_database_set).forEach(element => element.classList.add('skill_active')), 0)
-                setTimeout(() =>  skills_arrows[0].classList.add('arrow_hidden_animation'), 700);
-                setTimeout(() =>  skills_arrows[1].classList.add('arrow_1_animation'), 700);
-                setTimeout(() =>  skills_arrows[2].classList.add('arrow_2_animation'), 700);
+                // setTimeout(() =>  skills_arrows[0].classList.add('arrow_hidden_animation'), 700);
+                // setTimeout(() =>  skills_arrows[1].classList.add('arrow_1_animation'), 700);
+                // setTimeout(() =>  skills_arrows[2].classList.add('arrow_2_animation'), 700);
 
                 setTimeout(() => Array.from(skill_backend_set).forEach(element => element.classList.add('skill_active')), 1400)
-                setTimeout(() =>  skills_arrows[3].classList.add('arrow_hidden_animation'), 1400);
-                setTimeout(() =>  skills_arrows[4].classList.add('arrow_1_animation'), 1400);
-                setTimeout(() =>  skills_arrows[5].classList.add('arrow_2_animation'), 1400);
+                // setTimeout(() =>  skills_arrows[3].classList.add('arrow_hidden_animation'), 1400);
+                // setTimeout(() =>  skills_arrows[4].classList.add('arrow_1_animation'), 1400);
+                // setTimeout(() =>  skills_arrows[5].classList.add('arrow_2_animation'), 1400);
 
                 setTimeout(() => Array.from(skill_frontend_set).forEach(element => element.classList.add('skill_active')), 2100)
-                setTimeout(() =>  skills_arrows[6].classList.add('arrow_hidden_animation'), 2100);
-                setTimeout(() =>  skills_arrows[7].classList.add('arrow_1_animation'), 2100);
-                setTimeout(() =>  skills_arrows[8].classList.add('arrow_2_animation'), 2100);
+                // setTimeout(() =>  skills_arrows[6].classList.add('arrow_hidden_animation'), 2100);
+                // setTimeout(() =>  skills_arrows[7].classList.add('arrow_1_animation'), 2100);
+                // setTimeout(() =>  skills_arrows[8].classList.add('arrow_2_animation'), 2100);
 
                 setTimeout(() => Array.from(skill_deploy_set).forEach(element => element.classList.add('skill_active')), 2800)
                 // setTimeout(() =>  skills_arrows[9].classList.add('arrow_hidden_animation'), 2800);
