@@ -12,8 +12,8 @@
     position: relative;
     display: flex;
     align-items: center;
-    gap: 15px;
     height: 150px;
+    margin-bottom: 25px;
 }
 
 .projects_header_title::before {
@@ -22,9 +22,9 @@
     bottom: 0;
     left: 0;
     background-color: var(--white);
-    height: 7px;
+    height: 6px;
     border-radius: 3px;
-    width: 77px;
+    width: 1.4em;
 }
 
 .projects_header_title::after {
@@ -33,9 +33,9 @@
     bottom: 0;
     right: 0;
     background-color: var(--white);
-    height: 7px;
+    height: 6px;
     border-radius: 3px;
-    width: 120px;
+    width: 2.2em;
 }
 
 .project_content {
@@ -45,12 +45,13 @@
 
 .project_title {
     cursor: pointer;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 600;
 }
 
 .project_desc {
     max-width: 500px;
+    font-size: 14px;
     border-bottom: 1px solid white;
 }
 
@@ -73,4 +74,18 @@
     left: 0;
     width: 160px;
     height: 160px;
+}
+
+@media screen and (min-width: 768px){
+    .projects_header_title::before {
+        height: 7px;
+    }
+
+    .projects_header_title::after {
+        height: 7px;
+    }
+
+    .project_desc {
+        font-size: 16px;
+    }
 }
