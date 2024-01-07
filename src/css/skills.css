@@ -1,40 +1,14 @@
 
 #skills {
-    margin-top: 50px;
-}
-
-.skill_header {
-    display: flex;
-    flex-direction: column;
-    margin: 0 15px;
-    font-size: 54px;
-    font-weight: 700;
-    color: var(--white);
-    position: relative;
 }
 
 .skill_header_underline {
     position: absolute;
     bottom: 0;
-    background-color: var(--soft);
+    background-color: var(--white);
     height: 7px;
     border-radius: 3px;
     width: 180px;
-}
-
-.skill_header_test {
-    position: absolute;
-    left: 150px;
-    bottom: 14px;
-    height: 7px;
-    width: 50px;
-    border-radius: 3px;
-    background-color: var(--white);
-}
-
-.skill_content {
-    display: flex;
-    margin: 10px;
 }
 
 .skill_progress_bar {
@@ -43,6 +17,11 @@
     width: 12px;
     border-radius: 8px;
     background-color: var(--soft);
+}
+
+.skill_content {
+    max-width: 1200px;
+    margin: auto;
 }
 
 .skill_table {
@@ -210,119 +189,8 @@
     stroke: var(--red);
 }
 
-.icon_database {
-    grid-column: 1/2;
-    grid-row: 2/3;
-}
+@media screen and (min-width: 768px){
+    #skills {
 
-.icon_backend {
-    grid-column: 1/2;
-    grid-row: 4/5;
-}
-
-.icon_frontend {
-    grid-column: 1/2;
-    grid-row: 6/7;
-}
-
-.icon_deployment {
-    grid-column: 1/2;
-    grid-row: 8/9;
-}
-
-.skill_cluster_database {
-    grid-row: 2/3;
-}
-
-.skill_cluster_backend {
-    grid-row: 4/5;
-}
-
-.skill_cluster_frontend {
-    grid-row: 6/7;
-}
-
-.skill_cluster_deploy {
-    grid-row: 8/9;
-}
-
-@media screen and (min-width: 1200px){
-    .skill_content {
-        box-sizing: border-box;
-        margin: 0;
-    }
-
-    .skill_table {
-        box-sizing: border-box;
-        display: grid;
-        width: 100%;
-        padding: 20px;
-        grid-template-columns: 1fr 50px 1fr 50px 1fr 50px ;
-        grid-row-gap: 20px;
-        grid-column-gap: 0;
-        grid-template-rows: repeat(4, 90px 1fr);
-    }
-
-    .skill {
-        font-size: 14px;
-    }
-
-    .icon_database {
-        grid-column: 1/2;
-        grid-row: 1/2;
-    }
-
-    .icon_backend {
-        grid-column: 3/4;
-        grid-row: 1/2;
-    }
-
-    .icon_frontend {
-        grid-column: 5/6;
-        grid-row: 1/2;
-    }
-
-    .icon_deployment {
-        grid-column: 7/8;
-        grid-row: 1/2;
-    }
-
-    .skill_cluster_database {
-        grid-row: 2/3;
-        grid-column: 1/2;
-    }
-
-    .skill_cluster_backend {
-        grid-row: 2/3;
-        grid-column: 3/4;
-    }
-
-    .skill_cluster_frontend {
-        grid-row: 2/3;
-        grid-column: 5/6;
-    }
-
-    .skill_cluster_deploy {
-        grid-row: 2/3;
-        grid-column: 7/8;
-    }
-
-    .connector_1 {
-        grid-column: 2/3;
-        grid-row: 1/2;
-    }
-
-    .connector_2 {
-        grid-column: 4/5;
-        grid-row: 1/2;
-    }
-
-    .connector_3 {
-        grid-column: 6/7;
-        grid-row: 1/2;
-    }
-
-    .connector_4 {
-        display: none;
     }
 }

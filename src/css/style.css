@@ -26,13 +26,24 @@ h4 {
 #container {
     display: flex;
     flex-direction: column;
-    
+    max-width: 1650px;
+    margin: auto;
 }
 
 .component {
     color: var(--white);
     font-weight: 500;
-    min-height: 90vh;
+    min-height: 100vh;
+}
+
+.section_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 54px;
+    font-weight: 700;
+    color: var(--white);
+    position: relative;
 }
 
 .section_transition {
@@ -126,5 +137,4 @@ h4 {
 #projects {
     background-color: #151515;
     color: #BB3A47;
-    height: 100vh;
 }

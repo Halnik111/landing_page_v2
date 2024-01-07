@@ -1,0 +1,35 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Webpage">
+<rect width="200" height="200" rx="50" fill="black"/>
+<g id="Webpage_2">
+<g id="Frame">
+<rect id="Rectangle 1" x="22" y="34" width="156" height="132.889" rx="8" stroke="#FFE3DC" stroke-width="4"/>
+<path id="Line 1" d="M24 52H176" stroke="#FFE3DC" stroke-width="3"/>
+<ellipse id="Ellipse 1" cx="39" cy="43" rx="4" ry="4" fill="#FFE3DC"/>
+<ellipse id="Ellipse 2" cx="53.2222" cy="43" rx="4" ry="4" fill="#FFE3DC"/>
+<ellipse id="Ellipse 3" cx="67.4445" cy="43" rx="4" ry="4" fill="#FFE3DC"/>
+</g>
+<g id="Page content">
+<rect id="Rectangle 29" x="28" y="58" width="143" height="101" rx="3" fill="#292929"/>
+<rect id="Rectangle 26" x="31" y="93" width="32" height="5" rx="1" fill="#BB3A47"/>
+<path id="Rectangle 30" d="M133.5 99C133.5 98.4477 133.948 98 134.5 98H163.5C164.052 98 164.5 98.4477 164.5 99V148C164.5 148.552 164.052 149 163.5 149H134.5C133.948 149 133.5 148.552 133.5 148V99Z" fill="#BB3A47"/>
+<rect id="Rectangle 31" x="75" y="83" width="49" height="43" rx="1" fill="#BB3A47"/>
+<rect id="Rectangle 33" x="75" y="134" width="49" height="12" rx="1" fill="#BB3A47"/>
+<rect id="Rectangle 32" x="47" y="67" width="103" height="11" rx="1" fill="#BB3A47"/>
+<rect id="Rectangle 27" x="31" y="103" width="32" height="5" rx="1" fill="#BB3A47"/>
+<rect id="Rectangle 28" x="31" y="113" width="32" height="5" rx="1" fill="#BB3A47"/>
+<rect id="Rectangle 34" x="84" y="89" width="32" height="6" rx="1" fill="#8E2F39"/>
+<rect id="Rectangle 43" x="80" y="138" width="18" height="5" rx="1" fill="#8E2F39"/>
+<rect id="Rectangle 44" x="103" y="138" width="18" height="5" rx="1" fill="#8E2F39"/>
+<rect id="Rectangle 40" x="80" y="100" width="20" height="18" rx="1" fill="#8E2F39"/>
+<rect id="Rectangle 41" x="104" y="98" width="15" height="11" rx="1" fill="#8E2F39"/>
+<rect id="Rectangle 42" x="104" y="112" width="15" height="11" rx="1" fill="#8E2F39"/>
+<rect id="Rectangle 39" x="57" y="70" width="81" height="5" rx="1" fill="#8E2F39"/>
+<rect id="Rectangle 35" x="153" y="133" width="32" height="6" rx="1" transform="rotate(-90 153 133)" fill="#8E2F39"/>
+<rect id="Rectangle 38" x="153" y="145" width="10" height="6" rx="1" transform="rotate(-90 153 145)" fill="#8E2F39"/>
+<rect id="Rectangle 36" x="138" y="133" width="32" height="10" rx="1" transform="rotate(-90 138 133)" fill="#8E2F39"/>
+<rect id="Rectangle 37" x="138" y="145" width="10" height="10" rx="1" transform="rotate(-90 138 145)" fill="#8E2F39"/>
+</g>
+</g>
+</g>
+</svg>
