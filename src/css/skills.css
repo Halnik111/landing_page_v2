@@ -188,6 +188,7 @@
 }
 
 @media screen and (min-width: 768px){
+    
     .skill_table_title {
         font-size: 48px;
         letter-spacing: 5px;
@@ -196,5 +197,12 @@
     .skill {
         font-size: 17px;
         padding: 6px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    #skills {
+        margin-bottom: 100px;
     }
 }
