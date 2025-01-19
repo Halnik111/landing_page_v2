@@ -132,7 +132,6 @@
         align-items: center;
         flex-direction: column;
         margin-bottom: 80px;
-        overflow-y: scroll;
         padding-left: 0;
     }
 
